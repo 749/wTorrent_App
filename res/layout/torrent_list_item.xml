@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dip">
+
+    <TextView
+        android:id="@+id/textTorrentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/textTorrentPercent"
+        android:text="Torrent Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textTorrentClients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textTorrentName"
+        android:text="(0) 0/(0) 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textTorrentSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textTorrentClients"
+        android:layout_alignBottom="@+id/textTorrentClients"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textTorrentClients"
+        android:gravity="right"
+        android:text="DL: 0Kb/s UP: 0KB/s"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textTorrentBytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textTorrentClients"
+        android:text="0MB / 0MB"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textTorrentEta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textTorrentBytes"
+        android:layout_alignBottom="@+id/textTorrentBytes"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textTorrentBytes"
+        android:gravity="right"
+        android:text="ETA: --"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textTorrentPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textTorrentName"
+        android:layout_alignBottom="@+id/textTorrentName"
+        android:layout_alignParentRight="true"
+        android:text="0 %"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="5dip" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wTorrent</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_retry">Retry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_send">Send</string>
+    <string name="status_loading">Loading...</string>
+    <string name="status_connect">Connecting...</string>
+    <string name="status_logon">Logging in...</string>
+    <string name="warn_internet_title">No Internet</string>
+    <string name="warn_internet_message">This application requires an internet connection!</string>
+    <string name="warn_server_title">Server connection failed</string>
+    <string name="warn_server_message">The wTorrent server could not be accessed at &quot;%s&quot;! The server address may be incorrect or the wTorrent php application is not up to date.</string>
+    <string name="warn_logon_title">Login failed</string>
+    <string name="warn_logon_message">The wTorrent server did not accept the stored username and password combination. Please update your settings.</string>
+    <string name="warn_sett">Change Settings</string>
+    <string name="warn_exit">Exit Application</string>
+    <string name="preference_file">com.example.wtorrent_app.PREFERENCES</string>
+
+</resources>
